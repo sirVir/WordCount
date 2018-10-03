@@ -30,7 +30,7 @@ namespace WordCount
         }
 
         // could be optimized to use char arrays of max word length instead of copying string,
-        // left for readability
+        // strings are used for readability and simplicity
         private IEnumerable<(string, int)> Traverse(Node node, string prefix)
         {
             if (node.IsWord == true)
