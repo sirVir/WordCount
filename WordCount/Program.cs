@@ -6,7 +6,15 @@ namespace WordCount
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var textProvider = new FileTextProvider("input.txt");
+            var dictWordCounter = new DictionaryBackedWordCounter(textProvider);
+
+            foreach (var item in dictWordCounter.GetWords())
+            {
+                Console.WriteLine($"{item.Item2} : {item.Item1}");
+            }
+
+            Console.ReadKey();
         }
     }
 }
