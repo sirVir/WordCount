@@ -3,11 +3,11 @@ using System.Linq;
 
 namespace WordCount
 {
-    public class DictionaryBackedWordCounter : IWordCounter
+    public class DictionaryWordCounter : IWordCounter
     {
         private readonly ITextProvider _textProvider;
 
-        public DictionaryBackedWordCounter(ITextProvider textProvider)
+        public DictionaryWordCounter(ITextProvider textProvider)
         {
             _textProvider = textProvider;
         }

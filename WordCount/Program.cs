@@ -7,9 +7,9 @@ namespace WordCount
         static void Main(string[] args)
         {
             var textProvider = new FileTextProvider("input.txt");
-            var dictWordCounter = new DictionaryBackedWordCounter(textProvider);
+            var wordCounter = new DictionaryWordCounter(textProvider);
 
-            foreach (var item in dictWordCounter.GetWords())
+            foreach (var item in wordCounter.GetWords())
             {
                 Console.WriteLine($"{item.Item2} : {item.Item1}");
             }

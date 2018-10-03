@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{E89A71C5-3DE9-4CAE-8BD5-FDBB4E540911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCount", "WordCount\WordCount.csproj", "{E89A71C5-3DE9-4CAE-8BD5-FDBB4E540911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCountTests", "WordCountTests\WordCountTests.csproj", "{289A2589-A934-44D3-86FE-3F26A370B2E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCountTests", "WordCountTests\WordCountTests.csproj", "{289A2589-A934-44D3-86FE-3F26A370B2E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
